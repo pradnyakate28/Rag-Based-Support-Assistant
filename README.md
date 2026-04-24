@@ -34,25 +34,6 @@ Sentence Transformers
 
 Hugging Face Models
 
-# Project Structure
-rag-support-bot/
-│
-├── app.py
-|
-├── graph.py
-|
-├── retriever.py
-|
-├── ingest.py
-|
-├── data/ # PDF files
-|
-├── chroma_db/           # Vector database
-|
-├── requirements.txt
-|
-└── report/
-
 # How It Works
 PDF is loaded and text is extracted
 

@@ -6,20 +6,32 @@ This project is a Retrieval-Augmented Generation (RAG) based Customer Support As
 
 # Features
 PDF document processing and text extraction
+
 Text chunking for efficient retrieval
+
 Embedding generation using Sentence Transformers
+
 Vector storage using ChromaDB
+
 Semantic search-based retrieval system
+
 LangGraph-based workflow orchestration
+
 Context-aware answer generation using LLM
+
 Human-in-the-Loop (HITL) escalation support
 
 # Tech Stack
 Python
+
 LangChain
+
 LangGraph
+
 ChromaDB
+
 Sentence Transformers
+
 Hugging Face Models
 
 # Project Structure
@@ -36,25 +48,36 @@ rag-support-bot/
 
 # How It Works
 PDF is loaded and text is extracted
+
 Text is split into chunks
+
 Chunks are converted into embeddings
+
 Embeddings are stored in ChromaDB
+
 User query is converted into embeddings
+
 Similar chunks are retrieved
+
 LLM generates final answer using context
+
 Response is returned to user
 
 # How to Run the Project
 1. Install dependencies
 pip install -r requirements.txt
-2. Run ingestion (build vector DB)
+
+3. Run ingestion (build vector DB)
 python ingest.py
-3. Start the chatbot
+
+4. Start the chatbot
 python app.py
 
 # Example Queries
 What is refund policy?
-What services are provided?
+
+What services are provided
+
 Pricing details?
 
 # System Workflow
@@ -63,9 +86,11 @@ User Query → LangGraph → PDF Chunking → Embeddings → ChromaDB → Retrie
 
 # Future Enhancements
 Multi-document support
-Web UI integration
+
 Feedback learning system
+
 Cloud deployment (AWS / Render)
+
 
 # Author
 Pradnya Kate

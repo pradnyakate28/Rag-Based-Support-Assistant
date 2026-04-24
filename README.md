@@ -38,12 +38,19 @@ Hugging Face Models
 rag-support-bot/
 │
 ├── app.py
+|
 ├── graph.py
+|
 ├── retriever.py
+|
 ├── ingest.py
-├── data/                 # PDF files
+|
+├── data/ # PDF files
+|
 ├── chroma_db/           # Vector database
+|
 ├── requirements.txt
+|
 └── report/
 
 # How It Works

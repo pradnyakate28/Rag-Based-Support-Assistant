@@ -1,6 +1,7 @@
 # RAG-Based Customer Support Assistant
 
 📌 Project Overview
+
 This project is a Retrieval-Augmented Generation (RAG) based Customer Support Assistant that answers user queries using information stored in a PDF knowledge base. It combines document retrieval, embeddings, vector search, and LLM-based response generation using a LangGraph workflow.
 
 # Features

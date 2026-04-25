@@ -26,16 +26,16 @@ The system ensures that answers are grounded in real document data instead of ha
 - Sentence Transformers
 - Hugging Face Transformers
 
-## 📂 Files
+📂 Files
 - Main App: app.py  
 - Workflow: graph.py  
 - Retrieval: retriever.py  
 - Ingestion: ingest.py  
 
-## 📁 Folders
+📁 Folders
 - data/ → PDF files  
 - chroma_db/ → Vector DB
-- 
+
 ⚙️ How It Works
 - PDF document is loaded
 - Text is extracted and split into chunks
